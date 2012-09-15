@@ -1,0 +1,34 @@
+{
+    "name": "headers_parser"
+  , "version": "1.0.0"
+  , "description": "Extract request headers information"
+  , "keywords": [
+       "request",
+       "header",
+       "info",
+       "user",
+       "agent",
+       "user-agent",
+       "browser",
+       "os",
+       "version"
+    ]
+  , "repository": {
+       "type": "git",
+       "url": "http://github.com/doomhz/headers_parser.git" 
+    }
+  , "maintainers": [{
+        "name": "Dumitru Glavan"
+      , "email": "me@dumitruglavan.com"
+      , "url": "http://dumitruglavan.com"
+      , "twitter": "doomhz"
+    }]
+  , "license": "MIT"
+  , "main": "./lib/headers_parser"
+  , "dependencies": {
+        "jasmine-node": "latest"
+    }
+  , "scripts": {
+    "test": "node_modules/jasmine-node/bin/jasmine-node --coffee spec"
+  }
+}
