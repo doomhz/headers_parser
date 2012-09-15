@@ -1,6 +1,8 @@
 headers_parser
 ==============
 
+[![Build Status](https://secure.travis-ci.org/doomhz/headers_parser.png)](http://travis-ci.org/doomhz/headers_parser)
+
 NodeJS library for extracting request headers information.
 
 #Installation
